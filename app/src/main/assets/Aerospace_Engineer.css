@@ -1,0 +1,23 @@
+
+body
+{
+margin-left:20px;
+margin-right:20px;
+text-align:justify;
+text-justify:auto;
+font-weight:500;
+font-variant:normal;
+color:#000000;
+font-size:18px;
+font-weight:10pt;
+font-family:Segoe UI;
+thickness:12pt
+}
+h3
+{
+color:#ff0000;
+}
+hr
+{
+color:#000000;
+}

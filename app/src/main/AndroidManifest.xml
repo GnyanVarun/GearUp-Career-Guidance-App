@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gearup">
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:resizeableActivity="false"/>
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Optometrist" />
+        <activity android:name=".Veterinarian" />
+        <activity android:name=".Pediatrician" />
+        <activity android:name=".Psychiatrist" />
+        <activity android:name=".Physical_therapist" />
+        <activity android:name=".Pharmacist" />
+        <activity android:name=".Orthoptist" />
+        <activity android:name=".Nurse" />
+        <activity android:name=".Medical_physicist" />
+        <activity android:name=".Dietitian" />
+        <activity android:name=".News_anchor" />
+        <activity android:name=".Journalist" />
+        <activity android:name=".Web_producer" />
+        <activity android:name=".Content_marketing_manager" />
+        <activity android:name=".Managing_editor" />
+        <activity android:name=".Social_media_manager" />
+        <activity android:name=".Brand_strategist" />
+        <activity android:name=".Copywriter" />
+        <activity android:name=".Marketing_coordinator" />
+        <activity android:name=".Business_reporter" />
+        <activity android:name=".Benefits_manager" />
+        <activity android:name=".General_manager" />
+        <activity android:name=".Human_resources_manager" />
+        <activity android:name=".Public_relations_manager" />
+        <activity android:name=".Information_systems_manager" />
+        <activity android:name=".Financial_manager" />
+        <activity android:name=".Sales_manager" />
+        <activity android:name=".Marketing_manager" />
+        <activity android:name=".IRS" />
+        <activity android:name=".IFS" />
+        <activity android:name=".IPS" />
+        <activity android:name=".IAS" />
+        <activity android:name=".Video_editor" />
+        <activity android:name=".Fashion_designer" />
+        <activity android:name=".Animator" />
+        <activity android:name=".Interior_designer" />
+        <activity android:name=".Photographer" />
+        <activity android:name=".UI_designer" />
+        <activity android:name=".UX_designer" />
+        <activity android:name=".Graphic_designer" />
+        <activity android:name=".Data_scientist" />
+        <activity android:name=".Security_specialist" />
+        <activity android:name=".Software_engineer" />
+        <activity android:name=".Computer_scientist" />
+        <activity android:name=".Technical_engineer" />
+        <activity android:name=".Network_administrator" />
+        <activity android:name=".Network_engineer" />
+        <activity android:name=".System_engineer" />
+        <activity android:name=".System_analyst" />
+        <activity android:name=".DBA" />
+        <activity android:name=".Developer" />
+        <activity android:name=".Programmer" />
+        <activity android:name=".Tax_auditor" />
+        <activity android:name=".Finance_controller" />
+        <activity android:name=".Investment_analyst" />
+        <activity android:name=".Finance_analyst" />
+        <activity android:name=".Tax_consultant" />
+        <activity android:name=".Finance_consultant" />
+        <activity android:name=".Finance_planner" />
+        <activity android:name=".Portfolio_manager" />
+        <activity android:name=".Finance_manager" />
+        <activity android:name=".Company_secretary" />
+        <activity android:name=".Cost_accountant" />
+        <activity android:name=".Chartered_accountant" />
+        <activity android:name=".Electrical" />
+        <activity android:name=".Design_engineer" />
+        <activity android:name=".Data" />
+        <activity android:name=".Computer" />
+        <activity android:name=".Civil" />
+        <activity android:name=".Chemical" />
+        <activity android:name=".Biomedical" />
+        <activity android:name=".Automotive" />
+        <activity android:name=".Agriculture" />
+        <activity android:name=".Aerospace" />
+        <activity android:name=".Healthcare" />
+        <activity android:name=".Mass_Communication" />
+        <activity android:name=".Public_Services" />
+        <activity android:name=".Management" />
+        <activity android:name=".Design" />
+        <activity android:name=".IT" />
+        <activity android:name=".Commerce" />
+        <activity android:name=".Engineering" />
+        <activity android:name=".Detailed" />
+        <activity android:name=".Gear" />
+        <activity android:name=".Tips" />
+        <activity android:name=".News" />
+        <activity android:name=".Hire" />
+        <activity android:name=".Career" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".IntroActivity" />
+    </application>
+
+</manifest>
